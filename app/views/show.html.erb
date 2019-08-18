@@ -1,0 +1,12 @@
+<% @post.each do |post| %>
+  <table>
+    <tr>
+      <th>Date</th>
+      <td><%= post.date %></td>
+    </tr>
+    <tr>
+      <th>Rationale</th>
+      <td><%= post.rationale %></td>
+      </tr>
+  </table>
+<% end %>
